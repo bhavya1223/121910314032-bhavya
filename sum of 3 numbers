@@ -1,0 +1,13 @@
+input:
+print("bhavya-121910314032")
+a=int(input())
+b=int(input())
+c=int(input())
+sum=a+b+c
+print("sum=",sum)
+ouput:
+bhavya-121910314032
+2
+3
+4
+sum=9
