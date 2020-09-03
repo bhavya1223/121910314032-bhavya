@@ -1,0 +1,15 @@
+#copy contents from one array to another array
+input: 
+
+from array import *
+arr1 = array('i', [3,7,9,11,13])
+arr2 = array(arr1.typecode, [a for a in arr1])
+for i in arr2:
+    print(i)
+
+output:
+3
+7
+9
+11
+13
