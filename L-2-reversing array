@@ -1,0 +1,16 @@
+input:
+
+from array import *
+arr1 = array('i',[3,5,7,9,11])
+arr2 = array(arr1.typecode,[a for a in arr1])
+
+arr2.reverse()
+for i in arr2:
+    print(i)
+    
+output:
+11
+9
+7
+5
+3
