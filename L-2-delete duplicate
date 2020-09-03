@@ -1,0 +1,14 @@
+input:
+
+from array import *
+arr1 = array('i',[3,5,5,3,7,9,9,7,11,11])
+arr2 = array('i',set(arr1))
+for i in arr2:
+    print(i)
+    
+output:
+3
+5
+7
+9
+11
