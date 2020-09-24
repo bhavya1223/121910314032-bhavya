@@ -1,0 +1,12 @@
+Input:
+def find(a,x):
+    for i in range (len(a)): 
+        if (a[i] == x): 
+            return i
+k=[int(x) for x in input("Enter multiple value: ").split()]
+f=int(input("enter the element to be searched: "))
+print(find(k,f))
+Output:
+Enter multiple value: 2 5 7 9 4
+enter the element to be searched: 7
+2
